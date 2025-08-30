@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Users/31869/Desktop/soft/Microsoft VS Code/mingw64/bin/g++.exe"
 		},
 		{
@@ -299,10 +299,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Users/31869/Desktop/soft/Microsoft VS Code/mingw64/bin/gcc.exe"
 		},
 		{
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/Project"
+			"value" : "C:/Program Files (x86)/planning"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -799,7 +799,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "1"
+			"value" : "4"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -855,7 +855,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : ""
+			"value" : "a demo of cmake planning"
 		},
 		{
 			"name" : "CMAKE_PROJECT_HOMEPAGE_URL",
@@ -867,7 +867,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : ""
+			"value" : "https://github.com/yhr123del/cmake_planning_demo"
 		},
 		{
 			"name" : "CMAKE_PROJECT_NAME",
@@ -879,7 +879,67 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Project"
+			"value" : "planning"
+		},
+		{
+			"name" : "CMAKE_PROJECT_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "0.0.1"
+		},
+		{
+			"name" : "CMAKE_PROJECT_VERSION_MAJOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "0"
+		},
+		{
+			"name" : "CMAKE_PROJECT_VERSION_MINOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "0"
+		},
+		{
+			"name" : "CMAKE_PROJECT_VERSION_PATCH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_PROJECT_VERSION_TWEAK",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1274,7 +1334,19 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Project_BINARY_DIR",
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "planning_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1286,7 +1358,7 @@
 			"value" : "C:/Users/31869/Desktop/Robot_Path_ Trajectory/VS Code+mingw+cmake/cmake_planning_demo/build"
 		},
 		{
-			"name" : "Project_IS_TOP_LEVEL",
+			"name" : "planning_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1298,7 +1370,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "Project_SOURCE_DIR",
+			"name" : "planning_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1310,16 +1382,112 @@
 			"value" : "C:/Users/31869/Desktop/Robot_Path_ Trajectory/VS Code+mingw+cmake/cmake_planning_demo"
 		},
 		{
-			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"name" : "planning_main_BINARY_DIR",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "linker supports push/pop state"
+					"value" : "Value Computed by CMake"
 				}
 			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
+			"type" : "STATIC",
+			"value" : "C:/Users/31869/Desktop/Robot_Path_ Trajectory/VS Code+mingw+cmake/cmake_planning_demo/build/src"
+		},
+		{
+			"name" : "planning_main_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "planning_main_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/31869/Desktop/Robot_Path_ Trajectory/VS Code+mingw+cmake/cmake_planning_demo/src"
+		},
+		{
+			"name" : "pnc_map_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/31869/Desktop/Robot_Path_ Trajectory/VS Code+mingw+cmake/cmake_planning_demo/build/src/pnc_map"
+		},
+		{
+			"name" : "pnc_map_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "pnc_map_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/31869/Desktop/Robot_Path_ Trajectory/VS Code+mingw+cmake/cmake_planning_demo/src/pnc_map"
+		},
+		{
+			"name" : "process_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/31869/Desktop/Robot_Path_ Trajectory/VS Code+mingw+cmake/cmake_planning_demo/build/src/process"
+		},
+		{
+			"name" : "process_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "process_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/31869/Desktop/Robot_Path_ Trajectory/VS Code+mingw+cmake/cmake_planning_demo/src/process"
 		}
 	],
 	"kind" : "cache",
