@@ -10,7 +10,7 @@ project(planning # 项目名称
 set(CMAKE_CXX_STANDARD 17) # 设置 C++ 标准为 C++17
 
 #变量和目录设置
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin) # 可执行文件输出目录
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin) # 可执行文件输出目录
 set(Process_Dir ${CMAKE_SOURCE_DIR}/src/process) # process目录
 set(PNC_Map_Dir ${CMAKE_SOURCE_DIR}/src/pnc_map) # pnc_map目录
 
